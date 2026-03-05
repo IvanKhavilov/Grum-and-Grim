@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Гурт «Грим та Грім»</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="#">G&G</a>
+
+      <nav class="header__nav nav">
+        <button class="burger__btn" aria-label="Відкрити меню" aria-expanded="false" aria-controls="main-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav__menu" id="main-menu">
+          <li class="nav__item"><a class="nav__link" href="#concerts" data-scroll="#concerts">Концерти</a></li>
+          <li class="nav__item"><a class="nav__link" href="#about" data-scroll="#about">Про гурт</a></li>
+          <li class="nav__item"><a class="nav__link" href="#gallery" data-scroll="#gallery">Галерея</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacts" data-scroll="#contacts">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title">Гурт «Грим та Грім»</h1>
+            <p class="hero__subtitle">Справжній український рок, який гуркоче в серці.</p>
+            <p class="hero__text">
+              «Грим та Грім» - це поєднання
+              <span class="text--blue">потужних</span>
+              гітарних рифів, чесних текстів і вибухової енергії сцени. Ми граємо для тих, хто цінує живий звук, свободу та силу
+              музики
+            </p>
+            <p class="hero__text">
+              <span class="text--blue">Наші концерти</span>
+              - це завжди контакт з залом, драйв і емоції. Приєднуйся до нас на найближчих виступах і відчуй цей сайнд наживо!
+            </p>
+            <button class="hero__btn" type="button">Замовити квиток</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="concerts" class="section">
+        <div class="container">
+          <div class="table-wrapper">
+            <table class="concerts">
+              <thead>
+                <tr>
+                  <th colspan="4">
+                    <h3 class="table__title">Найближчі концерти</h3>
+                  </th>
+                </tr>
+                <tr>
+                  <th>Місто / Заклад</th>
+                  <th>Місця</th>
+                  <th>Дата</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Київ — Docker-G Pub</td>
+                  <td>250</td>
+                  <td>25.10.2025</td>
+                  <td><button class="button ticket-btn" type="button">Замовити квиток</button></td>
+                </tr>
+                <tr>
+                  <td>Львів — !FESTrepublic</td>
+                  <td>400</td>
+                  <td>01.11.2025</td>
+                  <td><button class="button ticket-btn" type="button">Замовити квиток</button></td>
+                </tr>
+                <tr>
+                  <td>Одеса — Зелен театер</td>
+                  <td>700</td>
+                  <td>09.11.2025</td>
+                  <td><button class="button ticket-btn" type="button">Замовити квиток</button></td>
+                </tr>
+                <tr>
+                  <td>Харків — ArtZavod</td>
+                  <td>500</td>
+                  <td>16.11.2025</td>
+                  <td><button class="button ticket-btn" type="button">Замовити квиток</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <div class="container">
+          <h2 class="section__title title__center">Учасники гурту</h2>
+          <div class="gallery__items">
+            <figure class="gallery__item">
+              <img src="images/gallery-1.avif" loading="lazy" width="360" height="240" alt="Максим гітара" />
+              <figcaption>Максим - гітара</figcaption>
+            </figure>
+            <figure class="gallery__item">
+              <img src="images/gallery-2.avif" loading="lazy" width="360" height="240" alt="Олена вокал" />
+              <figcaption>Олена - вокал</figcaption>
+            </figure>
+            <figure class="gallery__item">
+              <img src="images/gallery-3.avif" loading="lazy" width="360" height="240" alt="Тарас барабани" />
+              <figcaption>Тарас - барабани</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <h2 class="section__title">Наша історія</h2>
+          <img class="about__img" src="images/people.webp" width="360" height="240" loading="lazy" alt="Концерт" />
+          <p class="section__text">
+            «Грим та Грім» народився з бажання створювати музику, яка відчувається серцем. Ми почали свій шлях у маленькій студії
+            в центрі Києва, де кожен акорд, кожне слово було наповнене емоціями та переживаннями. Це було місце, де народжувались
+            перші пісні, де ми вчились грати разом як єдиний організм.
+          </p>
+          <p class="section__text">
+            За роки нашої діяльності ми виступили на десятках сцен — від невеликих клубів до великих фестивалів. Наша музика — це
+            поєднання традиційного року з сучасними елементами, що робить її унікальною та впізнаваною. Ми не боїмося
+            експериментувати зі звуком, додаючи електронні елементи або народні інструменти.
+          </p>
+          <p class="section__text">
+            Кожен наш виступ — це не просто концерт, а справжня подія, де ми ділимося своєю енергією з глядачами та створюємо
+            неповторну атмосферу. Ми віримо, що музика має силу об'єднувати людей, створювати спільноти та надихати на зміни.
+          </p>
+          <p class="section__text">
+            Наш колектив складається з досвідчених музикантів, кожен з яких приносить свій унікальний стиль та бачення. Максим
+            створює неймовірні гітарні рифи, Олена зачаровує своїм вокалом, а Тарас тримає ритм, який змушує серця битися в унісон
+            з музикою.
+          </p>
+        </div>
+      </section>
+
+      <section id="contacts" class="section">
+        <div class="container">
+          <h2 class="section__title title__center">Звʼяжіться з нами</h2>
+          <p class="contacts__subtitle">Хочеш замовити виступ або маєш питання? Пиши!</p>
+
+          <div class="contacts">
+            <form id="contactForm" class="form" method="GET" action="#">
+              <div class="form__group">
+                <label class="form__label" for="name">Імʼя</label>
+                <input class="form__input" type="text" id="name" name="name" required />
+              </div>
+              <div class="form__group">
+                <label class="form__label" for="email">Email</label>
+                <input class="form__input" type="email" id="email" name="email" required />
+              </div>
+              <div class="form__group form__group--full">
+                <label class="form__label" for="message">Повідомлення</label>
+                <textarea
+                  class="form__textarea"
+                  id="message"
+                  name="message"
+                  placeholder="Розкажи про свої ідеї"
+                  required
+                ></textarea>
+              </div>
+              <button class="button form__btn" type="submit">Відправити</button>
+              <p class="form__message" id="formMessage" aria-live="polite"></p>
+            </form>
+
+            <div class="contacts__map">
+              <h3 class="contacts__map-title">Наше місцезнаходження</h3>
+              <iframe title="Карта Києва" loading="lazy" src="https://www.google.com/maps?q=Kyiv&output=embed"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <p class="footer__text">© 2025 «Грим та Грім». Всі права захищені</p>
+          <ul class="social__list">
+            <li class="social__item"><a class="social__link" href="#">Instagram</a></li>
+            <li class="social__item"><a class="social__link" href="#">YouTube</a></li>
+            <li class="social__item"><a class="social__link" href="#">Facebook</a></li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item"><a class="footer__link" href="mailto:booking@lotoplay">booking@lotoplay</a></li>
+            <li class="footer__item"><a class="footer__link" href="tel:+380991234567">+38 (099) 123 45 67</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup" role="dialog" aria-modal="true" aria-labelledby="popupTitle" hidden>
+      <div class="popup__content">
+        <button class="popup__close" aria-label="Закрити попап">&times;</button>
+        <h3 id="popupTitle">Дякуємо!</h3>
+        <p>Ми звʼяжемось з вами найближчим часом.</p>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
