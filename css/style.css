@@ -79,8 +79,10 @@ body {
   color: #fff;
   transition: background 0.3s;
 }
-.button:hover {
-  background: #cf0029;
+@media (hover: hover) {
+  .button:hover {
+    background: #cf0029;
+  }
 }
 
 /* Header */
@@ -112,8 +114,10 @@ body {
   text-decoration: none;
   transition: color 0.3s;
 }
-.nav__link:hover {
-  color: var(--accent-blue);
+@media (hover: hover) {
+  .nav__link:hover {
+    color: var(--accent-blue);
+  }
 }
 .burger__btn {
   display: none;
@@ -150,10 +154,17 @@ body {
   cursor: pointer;
   border-radius: var(--border-radius-btn);
   box-shadow: 3px 3px 8px 0px rgba(255, 204, 0, 0.2);
-  transition: all 0.3s ease-in-out;
+  transition:
+    color 0.3s,
+    background 0.3s,
+    border 0.3s;
 }
-.hero__btn:hover {
-  transform: scale(1.1);
+@media (hover: hover) {
+  .hero__btn:hover {
+    color: var(--text);
+    background: transparent;
+    border: 1px solid var(--accent-yellow);
+  }
 }
 
 /* Sections */
@@ -210,6 +221,14 @@ body {
 .gallery__item figcaption {
   padding: 12px;
   color: var(--text-grey);
+}
+.gallery__item img {
+  transition: transform 0.3s;
+}
+@media (hover: hover) {
+  .gallery__item img:hover {
+    transform: scale(1.05);
+  }
 }
 
 /* About */
@@ -328,8 +347,13 @@ body {
 .social__item:nth-child(2)::before {
   left: -9px;
 }
-.social__link:hover {
-  color: var(--text);
+.social__link {
+  transition: color 0.3s;
+}
+@media (hover: hover) {
+  .social__link:hover {
+    color: var(--text);
+  }
 }
 .footer__list {
   display: flex;
